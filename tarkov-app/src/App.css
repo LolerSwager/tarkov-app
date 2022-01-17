@@ -1,0 +1,67 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+  background-color: black;
+}
+
+a{
+  color: #968565;
+}
+
+main input{
+  margin: 2rem;
+  color: black;
+}
+
+#card{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  color: #fff;
+  margin: 1rem;
+}
+
+#card li{
+  background-color: #3a3a3a;
+  list-style: none;
+  padding: 1rem;
+  display: flex;
+}
+
+#card li img{
+  max-width: 62px;
+  margin: 0 1rem 0 0;
+  object-fit: scale-down;
+}
+
+#card li div{
+  background-color: #232323;
+  width: 100%;
+}
+
+#card li div h3{
+  color: #968565;
+}
+
+footer{
+  background: #1b1a1a;
+  padding: 1rem;
+}
+
+footer ul{
+  color: #fff;
+  list-style: none;
+}
+
+footer ul li{
+  margin: 0 1rem;
+}
+
+footer a{
+  color: #fff;
+}
